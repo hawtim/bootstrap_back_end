@@ -1,0 +1,25 @@
+.fl{float: left;display: inline;}
+.fr{float: right;display: inline;}
+
+
+/*以下是公共代码
+ */
+html{
+	font-size: 20px;
+}
+body{
+	font-family: Arial,sans-serif;
+	background: #fff;
+}
+header{
+	width:16rem;
+	height:auto;
+	background: #fff url() 0 0 no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+footer{
+	width:16rem;
+	height:5rem;
+	border:.1rem solid red;
+}
